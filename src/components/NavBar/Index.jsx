@@ -1,6 +1,7 @@
 import './navbar.css';
 import { Navbar, Nav, Container } from "react-bootstrap";
 import CartWidget from "../CartWidget";
+import logo from "../../components/img/logoalone.png";
 
 function NavBar() {
     return (
@@ -9,7 +10,7 @@ function NavBar() {
           {/* Logo de la tienda */}
           <Navbar.Brand className="navbar-brand" href="/">
             <img
-              src="/img/logoalone.png"
+              src={logo}
               alt="Logo"
             />{" "}
             Oli & Mate
