@@ -1,5 +1,4 @@
 import { FaShoppingCart } from "react-icons/fa";
-import { Badge } from "react-bootstrap";
 import "./cartwidget.css";
 
 function CartWidget() {
