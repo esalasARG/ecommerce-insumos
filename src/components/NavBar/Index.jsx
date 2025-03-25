@@ -9,7 +9,7 @@ function NavBar() {
           {/* Logo de la tienda */}
           <Navbar.Brand className="navbar-brand" href="/">
             <img
-              src="/src/components/img/logoalone.png"
+              src="/img/logoalone.png"
               alt="Logo"
             />{" "}
             Oli & Mate
