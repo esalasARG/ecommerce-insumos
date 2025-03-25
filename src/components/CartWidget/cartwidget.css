@@ -1,0 +1,40 @@
+/* Estilos del widget del carrito */
+  .cart-widget {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f8c471; /* Color de fondo */
+    padding: 8px 12px;  /* Espaciado interno */
+    border-radius: 25px; /* Borde redondeado */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más moderno */
+  }
+  
+  .cart-widget:hover {
+    background-color: #f39c12; /* Color más oscuro al pasar el mouse */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra más prominente al pasar el mouse */
+  }
+  
+  .cart-widget svg {
+    color: white;
+    font-size: 22px;
+  }
+  
+  .cart-badge {
+    background-color: #e74c3c;
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 50%;  /* Hacer el badge circular */
+    color: white;
+    position: relative;
+    top: -10px;
+    right: -10px;
+    font-weight: bold;
+  }
+  
+  .cart-widget span {
+    margin-left: 8px; /* Espacio entre el icono y el texto */
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }

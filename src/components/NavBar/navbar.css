@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'kaoly_demoregular';
+  src: url('../fonts/kaoly_demo-regular-webfont.woff2') format('woff2'),
+       url('../fonts/kaoly_demo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Navbar */
+.navbar-custom {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(52, 58, 64, 0.8); /* Fondo transparente para el navbar */
+  padding: 15px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white !important;
+  text-decoration: none; /* Quitar el subrayado */
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+/* Estilo para los enlaces de navegación */
+.nav-links .nav-link {
+  color: white !important;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links .nav-link:hover {
+  color: #fce7f3 !important; /* Color suave para el hover */
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Efecto de hover */
+.nav-links .nav-link:hover {
+  color: #f8c471 !important;
+  text-decoration: none;
+}
+
+/* Widget del carrito */
+.cart-widget {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f8c471;
+  padding: 8px 12px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-widget:hover {
+  background-color: #f39c12;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cart-widget svg {
+  color: white;
+  font-size: 22px;
+}
+
+.cart-badge {
+  background-color: #e74c3c;
+  font-size: 14px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  color: white;
+  position: relative;
+  top: -10px;
+  right: -10px;
+  font-weight: bold;
+}
+
+.cart-widget span {
+  margin-left: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbarbrand {
+  font-family: "kaoly_demoregular";
+  color: white;
+}
+
